@@ -12,7 +12,6 @@
 
 .navbar-brand h1 { /* Name */
 	color: #ff7f50;
-	font-size: 3.2em;
 	text-transform:uppercase;
 	font-weight: bold;
 	margin-top: 0px;
@@ -20,18 +19,34 @@
 	line-height: .75;
 }
 
-.navbar-brand a:hover {
+.navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-	border: 2px solid black;
-	background-color: white;
-
+#nav-list {
+	margin-top: 10px;
 }
 
-.navbar-header button.navbar-toggler {
+#nav-list a {
+	color: blue;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: azure;
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;	
+}
+
+.navbar-header button.navbar-toggle {
 	clear: both;
+	margin-top: -30px;
 }
 
 /** END HEADER **/
@@ -99,6 +114,16 @@ p {
 /**extra small devices **/
 @media (max-width: 767px) {
 
+//**HEADER**/
+
+.navbar-brand {
+	padding-top: 10px;
+	height: 80px;
+}
+.navbar-brand h1 {
+	padding-top: 10px;
+	font-size: 5vw;
+}
 .col-xs-12
 	{
 	position: relative;
