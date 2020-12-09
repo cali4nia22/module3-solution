@@ -1,7 +1,7 @@
 /** HEADER **/
 
 #header-nav {
-	background-color: #008080;
+	background-color: #dc143c;
 	border-radius: 0;
 	border: 0;
 }
@@ -28,7 +28,7 @@
 }
 
 #nav-list a {
-	color: blue;
+	color: red;
 	text-align: center;
 }
 
@@ -53,15 +53,6 @@
 
 /** BODY **/
 
-h2 {
-	
-	text-align: center;
-}
-
-h3 {
-	
-	text-align: center;
-}
 
 p {
 	text-align: center;
